@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" width="256" height="256" viewBox="0 0 256 256">
+  <!-- Definizione dei gradienti -->
+  <defs>
+    <linearGradient id="gradient1" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFD700"></stop>
+      <stop offset="100%" stop-color="#FFA500"></stop>
+    </linearGradient>
+    <linearGradient id="gradient2" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#87CEEB"></stop>
+      <stop offset="100%" stop-color="#4682B4"></stop>
+    </linearGradient>
+  </defs>
+
+  <!-- Sfondo a forma di diamante -->
+  <path fill="url(#gradient2)" d="M128 0L256 128L128 256L0 128Z"></path>
+
+  <!-- Sole centrale -->
+  <circle cx="128" cy="128" r="50" fill="url(#gradient1)" />
+
+  <!-- Raggi del sole -->
+  <g stroke="url(#gradient1)" stroke-width="10">
+    <line x1="128" y1="20" x2="128" y2="60" />
+    <line x1="128" y1="196" x2="128" y2="236" />
+    <line x1="20" y1="128" x2="60" y2="128" />
+    <line x1="196" y1="128" x2="236" y2="128" />
+    <line x1="45" y1="45" x2="80" y2="80" />
+    <line x1="176" y1="176" x2="211" y2="211" />
+    <line x1="176" y1="45" x2="211" y2="80" />
+    <line x1="45" y1="176" x2="80" y2="211" />
+  </g>
+</svg>
